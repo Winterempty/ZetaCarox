@@ -1,0 +1,18 @@
+{
+  "name": "zetacaros-business",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Simple bilingual stock and sales management, preserving legacy business records",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "start": "node backend/src/app.js",
+    "test": "node --test backend/tests/*.test.js",
+    "backup": "node backend/src/maintenance.js backup",
+    "restore": "node backend/src/maintenance.js restore",
+    "test:ui": "node backend/tests/inventory-browser.cjs",
+    "test:legacy-ui": "node backend/tests/ui-dom.cjs"
+  },
+  "devDependencies": {"playwright": "1.63.0", "jsdom": "29.0.1"}
+}

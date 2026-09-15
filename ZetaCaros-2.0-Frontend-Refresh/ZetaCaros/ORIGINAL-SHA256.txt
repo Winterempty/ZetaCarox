@@ -1,0 +1,9 @@
+Original supplied file: ZetaCaros-01-business-v1.2.zip
+SHA-256: F0BAF957DEB625604E7B7C2D35F52F9261F489ADE71AF87F006022DE10AB8448
+
+The byte-for-byte original archive is retained under original/.
+The file in C:\Users\airpo\Downloads was not modified.
+No shop database was present in the supplied archive.
+
+Vendored @zxing/browser 0.2.1 UMD SHA-256:
+066BC34EDFCDD4A33F0964AEEC967752A0DEA1CCAF36E58E319AC9FCB5070F6A
